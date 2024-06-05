@@ -135,18 +135,6 @@ body, html {
 }
 
 
-/* Pure Css Hover - End */
-
-
-/*  mobile @media(max-width: 600px) */
-
-/* @media(min-width: 600px) {
-  
-
-}
-} */
-
-
 /* card */
 
 .card p {
@@ -184,8 +172,6 @@ footer {
   color: black;
 }
 
-
-
 .footer-box-1 {
   display: flex;
   flex-direction: column;
@@ -196,19 +182,9 @@ footer {
 .first-line {
   display: flex;
   justify-content: space-between;
-  
-
-  padding-bottom: 40px;
   align-items:flex-start;
 }
 
-
-@media screen (max-width: 992px) {
-    .footer-box-2-first {
-      display: flex;
-      flex-direction: column;
-    }
-}
 
 .footer-box-3-first {
   display : flex;
@@ -221,9 +197,6 @@ footer {
   justify-content: flex-end;
   width: 40%;
 }
-
-
-
 
 .sub-title {
   color: black;
