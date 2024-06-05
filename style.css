@@ -268,8 +268,10 @@ footer {
   color: #6c6a71;
 }
 
-
-
+.footer-box-2-first {
+  display: flex;
+  justify-content: space-between;
+} 
 
 .footer-box-2-second {
   color: #919496;
@@ -277,7 +279,6 @@ footer {
   justify-content: center;
   font-size: 12px;
 }
-
 
 .sns-icon {
   width: 54px;
@@ -289,7 +290,6 @@ footer {
   justify-content: center;
   align-items: center;
 }
-
 
 
 @media (max-width: 992px) {
@@ -304,18 +304,16 @@ footer {
 
   .sns-area {
     justify-content: center;
-    margin: 20px;
+    padding-left: 0px;
+    margin-top: 20px;
   }
+
+ 
 
   .last-icon {
-    margin-right : 40px;
+    margin-right : 15px;
   }
 }
-
-
-/*  */
-
-
 
 .footer-container {
   display: flex;
@@ -325,29 +323,21 @@ footer {
   padding: 60px;
 }
 
-.footer-box-2-first {
-  display: flex;
-  justify-content: space-between;
-} 
-
-
-
-
- .footer-box-3-first {
+.footer-box-3-first {
   display : flex;
-  justify-content: center;
-  
+  justify-content: center; 
 }
 
-
-
-
+@media (max-width: 600px) {
+  .footer-box-3-first {
+    align-items: center;
+  } 
+}
 
 .sns-area {
   display: flex;
   justify-content: center;
 }
-
 
 .sns-icon {
   width: 54px;
@@ -363,7 +353,7 @@ footer {
 
 
 
-/*  휴지통 */
+
 
 
 
